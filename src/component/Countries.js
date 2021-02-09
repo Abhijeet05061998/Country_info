@@ -34,7 +34,8 @@ function Countries() {
     setInput('')
   };
 
-  const onInputChange = (e) => {
+  const onInputChange =(e) => 
+  {
     setInput(e.target.value);
     if (e.target.value.length > 0) {
       setNewData(
