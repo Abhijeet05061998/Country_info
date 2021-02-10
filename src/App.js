@@ -9,8 +9,11 @@ import dotenv from 'dotenv';
 
 dotenv.config()
 
-function App() {
-  return (
+function App() 
+{
+  return 
+  (
+    
     <div className="App">
       <Header />
       <Switch>
@@ -19,6 +22,7 @@ function App() {
       </Switch>
     </div>
   );
+  
 }
 
 export default App;
